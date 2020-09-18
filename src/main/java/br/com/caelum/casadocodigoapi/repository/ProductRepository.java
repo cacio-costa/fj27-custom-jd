@@ -16,4 +16,6 @@ public interface ProductRepository extends Repository<Product, Long> {
 	Product save(Product product);
 
 	void delete(Product product);
+	
+	Long count();
 }

@@ -14,4 +14,6 @@ public interface CategoryRepository extends Repository<Category, Long> {
 	Optional<Category> findById(Long id);
 
 	Category save(Category category);
+	
+	Long count();
 }

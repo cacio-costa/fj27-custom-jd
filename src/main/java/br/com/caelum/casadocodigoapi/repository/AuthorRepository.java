@@ -15,4 +15,6 @@ public interface AuthorRepository extends Repository<Author, Long> {
 	Optional<Author> findById(Long id);
 
 	Author save(Author author);
+	
+	Long count();
 }

@@ -14,4 +14,6 @@ public interface BookRepository extends Repository<Book, Long> {
 	Optional<Book> findById(Long id);
 
 	Book save(Book book);
+	
+	Long count();
 }
